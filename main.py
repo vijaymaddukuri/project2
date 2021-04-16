@@ -18,7 +18,7 @@ def setup_args():
 def main():
     args = setup_args()
     data = json.loads(args.data)
-    print(data)
+    print(data['requester'])
     print('Type is - ', type(data))
 
 
