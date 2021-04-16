@@ -19,7 +19,7 @@ def main():
     args = setup_args()
     data = json.loads(args.data)
     print(data)
-    print(type(data))
+    print('Type is - ', type(data))
 
 
 
